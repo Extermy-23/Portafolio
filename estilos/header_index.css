@@ -57,7 +57,15 @@ header nav ul li {
 
 }
 
-.menu-con-hover li:hover {
+header nav ul li a {
+
+   text-decoration: none;
+   color: rgb(180, 180, 180);
+   cursor: pointer;
+
+}
+
+.menu-con-hover li a:hover {
 
   color: rgb(31, 100, 149);
   transition: 0.2s;
@@ -113,7 +121,6 @@ header figure div figcaption .span2 {
   color: #F5F5F5;
 
 }
-
 
 
 
