@@ -133,8 +133,6 @@ header figure div figcaption .span2 {
 
 
 
-
-
 section .parte-uno {
 
    padding: 110px 100px;
@@ -354,3 +352,66 @@ footer a:hover {
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*===================================================
+    Responsive
+===================================================*/
+   
+    @media screen and (max-width: 700px) {
+
+
+       header nav ul div li {
+
+         font-size: 1.45em;
+
+       }
+        header figure div {
+
+          display: grid;
+
+        }
+
+        header figure div img {
+    
+          margin: auto;
+          width: 90px; height: 90px;
+
+        }
+
+        header figure div figcaption span{
+
+           margin: auto;
+
+        }
+
+        header figure div figcaption .span1 {
+
+           font-size: 1.4em;
+           margin-bottom: 16px; 
+
+        }
+
+        header figure div figcaption .span2 {
+
+           font-size: 1.2em;
+           margin-top: 0px;
+
+        }
+
+    }
