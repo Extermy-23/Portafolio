@@ -373,7 +373,7 @@ footer a:hover {
     Responsive
 ===================================================*/
    
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 1920px) {
 
 
        header nav ul div li {
