@@ -125,6 +125,9 @@ header figure div figcaption .span2 {
 
 
 
+
+
+
 section .parte-uno {
 
    padding: 110px 100px;
@@ -227,5 +230,120 @@ section .parte-uno h2{
   display: flex;
   flex-direction: column;
   align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+section .parte-dos {
+
+   padding: 110px 100px;
+   padding-top: 0px;
+   color: rgba(1, 1, 1, 0.80);
+   margin: 5px 0px;
+   font-size: 2.2em;
+
+}
+
+section .parte-dos  p {
+  
+    color: black;
+    grid-row: 2/3;
+    font-weight: 100;
+    color: rgba(1, 1, 1, 0.80);
+    font-size: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    line-height: 28px;
+    text-align: center;
+    padding: 20px 0px;
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    background: rgba(210, 210, 210, 1.0);
+    box-shadow: 2px 5px 7px rgba(80, 80, 80, 1.0);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ footer {
+
+   padding: 110px 100px;
+   padding-bottom: 50px;
+   padding-top: 20px;
+   color: rgba(1, 1, 1, 0.80);
+   margin-top: 100px;
+   background: rgba(0, 0, 0, 0.1);
+
+}
+
+footer h6 {
+
+   font-size: 1.8em;
+
+}
+
+
+footer div {
+
+   width: 80%;
+   margin: auto;
+   margin-top: 40px;
+   display: grid;
+   grid-area: "telegram youtube instagram";
+   grid-template-columns: repeat(3, 1fr); 
+   text-align: center;
+   font-size: 1.2em;
+
+}
+
+footer div img {
+
+   width: 40px;
+   height: 40px;
+
+}
+
+footer div figure figcaption:hover, footer img:hover {
+
+    cursor: pointer;
+
+} 
+
+footer a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+footer a:hover {
+
+    color: rgb(31, 100, 149);
+    transition: 0.4s;
+
 
 }
